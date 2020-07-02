@@ -8,7 +8,7 @@
             Console.WriteLine("Escriba el tercer numero pleas");
             int num3 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Escriba el cuarto numero pleas");
-            int num4 = Convert.ToInt32(Console.ReadLine());
+            int num4 = Convert.ToInt32(Console.ReadLine()); 
 
             numero[0] = num1;
             numero[1] = num2;
