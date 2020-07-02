@@ -1,5 +1,4 @@
 
-
 // ejercicio 3 Dias de la semana 
             string[] Diasdsm =
              {
@@ -15,3 +14,7 @@
              Console.Write("{0}", i);
 
             }
+             /* profesor seguire haciendo los de mas porque tenia problemas con mi pc se le envie
+              la foto por telegram y los otros que me faltan lo tenia por mitad porque sigo buscado
+             como terminarlos ya que estoy fjado ya que el codigo me esta fallando
+              */
