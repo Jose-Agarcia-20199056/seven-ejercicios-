@@ -1,0 +1,28 @@
+
+
+ // ejercicio 2, 5 numeros reales  mostrar en orden contrario
+            Console.WriteLine(" Ingrese el primer numero real please ");
+            float num1 = Convert.ToSingle(Console.ReadLine());
+            Console.WriteLine(" Ingrese el segundo  numero real please ");
+            float num2 = Convert.ToSingle(Console.ReadLine());
+            Console.WriteLine(" Ingrese el tercer numero real please ");
+            float num3 = Convert.ToSingle(Console.ReadLine());
+            Console.WriteLine(" Ingrese el cuarto numero real please ");
+            float num4 = Convert.ToSingle(Console.ReadLine());
+            Console.WriteLine(" Ingrese el quinto numero real please ");
+            float num5 = Convert.ToSingle(Console.ReadLine());
+
+            float[] numeros =
+            {
+                num5,num4,num3,num2,num1
+            };
+
+            Console.WriteLine("En breve se mostrara los datos ingresados en orden contrario");
+
+            foreach (float i in numeros)
+
+            {
+
+                Console.Write("{0}  ", i);
+
+            }
