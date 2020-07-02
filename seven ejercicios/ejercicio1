@@ -1,0 +1,30 @@
+ // ejercicio 1 la media de 4 numeros 
+            int[] numero = new int[4];
+
+            Console.WriteLine("Escriba el primer numero please");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Escriba el segundo  numero please");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Escriba el tercer numero pleas");
+            int num3 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Escriba el cuarto numero pleas");
+            int num4 = Convert.ToInt32(Console.ReadLine());
+
+            numero[0] = num1;
+            numero[1] = num2;
+            numero[2] = num3;
+            numero[3] = num4;
+
+            int suma = numero[0] + numero[1] + numero[2] + numero[3];
+            
+            Console.WriteLine("la media aritmetica de los datos ingresados es: "+ suma/4);
+
+            Console.WriteLine(" los datos tecleados son : " );
+
+            foreach (int i in numero)
+
+            {
+
+                Console.Write("{0}  ", i);
+
+            }
