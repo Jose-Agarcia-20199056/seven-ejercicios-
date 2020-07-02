@@ -1,0 +1,17 @@
+
+
+// ejercicio 3 Dias de la semana 
+            string[] Diasdsm =
+             {
+                "  domingo  "  ,   " lunes "   ,   "martes",  " miercoles "   , "  jueves  ","  viernes  ","  sabado  ",
+            };
+
+            Console.WriteLine("Los dias de la semana son: ");
+
+            foreach (string i in Diasdsm)
+
+            {
+                
+             Console.Write("{0}", i);
+
+            }
